@@ -165,3 +165,20 @@ penjelasan dan contohnya!
 4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut
 terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?
 Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )
+
+## Jawaban
+```
+1. Seperti pada gambar saya mengubah warna font dan font-family dengan Arial Black, dan memberikan perubahan di bagian button di css dengan menambahkan ``{border-style:outset;
+border-radius: 10px;}``
+2. pendeklarasian CSS #intro h1{..} adalah dengan menggunakan selector id, sedangkan h1{..} tidak menggunakan selector.
+3. Ketika kita mendeklarasikan secara bersamaan antara ***INTERNAL, EKSTERNAL*** dan ***INLINE***, yang akan ditampilkan pada Browser adalah ***INLINE***. Karena ***INLINE*** Memiliki deklarasi prioritas dibanding ***EKSTERNAL*** atau pun ***INTERNAL***, seperti contoh yang saya buat, saya membuat dokumen baru HTML kemudian saya buat Elemen ``{h1}`` yang kemudian saya akan deklarasikan di CSS ***INTERNAL, EKSTERNAL*** dan juga ***INLINE*** Dengan property ``{color}`` yang berbeda, jika ***INTERNAL*** ``{color: red}``, sementara ***EKSTERNAL*** ``{color:green;}`` dan ***INLINE*** ``{color: blue;}``. Maka yang terpanggil di browser adalah ***INLINE*** karena memiliki prioritas.
+
+![gambar 1.7](img/jawaban_no3.JPG)
+
+**Hasil Deklarasinya**
+![gambar 1.8](img/jawaban_no3.1.JPG)
+
+4. Maka yang ditampilkan pertama adalah **ID**, karena **ID** adalah hitungan poin selector yang lebih besar daripada **Class**.
+
+![gambar 1.9](img/jawaban_no4.JPG)
+
